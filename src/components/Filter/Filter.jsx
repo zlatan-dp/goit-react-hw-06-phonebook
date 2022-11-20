@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { FilterInput, FilterLabel } from './Filter.styled';
 import { getFilter, filterContacts } from 'redux/contactsSlice';
@@ -17,8 +17,9 @@ export const Filter = () => {
     </FilterLabel>
   );
 };
-
+/* 
 Filter.protTypes = {
   value: PropTypes.string,
   onChange: PropTypes.func,
 };
+ */
